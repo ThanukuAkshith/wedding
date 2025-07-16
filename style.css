@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fff0f5;
+  margin-bottom: 60px; 
+}
+
+/* Fixed Bottom Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(254, 152, 167);
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+ 
+}
+
+.nav-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(234, 133, 149);
+  color: black;
+  padding: 10px 10px; 
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap; 
+}
+
+/* Full-width Sections */
+.hero-section,
+.AK,
+.ceremony-container {
+  width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.p1, .p2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+
+.p1 {
+  top: 45%;
+}
+
+.p2 {
+  top: 55%;
+}
+
+/* Story Section */
+.AK {
+  background-color: rgba(255, 182, 193, 0.641);
+  padding: 20px;
+  text-align: center;
+}
+
+.p3 p {
+  font-size: 30px;
+  color: rgb(248, 81, 109);
+  font-weight: bold;
+}
+
+.p4 p {
+  font-size: 20px;
+  color: rgb(248, 81, 109);
+  margin-top: 10px;
+}
+
+.image2 img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Ceremony Section */
+.ceremony-container {
+  background-color: #eb79a7;
+  border-top: 2px solid #f08999;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.2);
+}
+
+.p5 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.p5 a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #d63384;
+  font-weight: bold;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #ff69b4;
+  display: block;
+}
+
+.p7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 192, 203, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.p7 p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #800040;
+}
+
+.when-where-section {
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #ffe6f0;
+  text-align: center;
+  border-top: 2px solid #ffb6c1;
+  border-bottom: 2px solid #ffb6c1;
+}
+
+.when-where-section h2 {
+  font-size: 32px;
+  color: #d63384;
+  margin-bottom: 30px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.when, .where {
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #ffb6c1;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.2);
+}
+
+.when h3, .where h3 {
+  font-size: 24px;
+  color: #c2185b;
+  margin-bottom: 15px;
+}
+
+.when p, .where p {
+  font-size: 18px;
+  color: #800040;
+  margin: 5px 0;
+}
+
+.rsvp-container {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.rsvp-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff69b4;
+  color: white;
+  cursor: pointer;
+}
+
+.rsvp-button:hover {
+  background-color: #e75480;
+  display: none;
+}
+
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer>p{
+    background-color: #ff69b4;
+    color: whitesmoke;
+}
