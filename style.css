@@ -222,7 +222,7 @@ body {
 
 .rsvp-button:hover {
   background-color: #e75480;
-  
+  /* display: none; */
 }
 
 
